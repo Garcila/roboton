@@ -1,13 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <header>
       <h1>
-        Roboton
-        <span role="img" aria-label="robot">
-          &#x1f916;
-        </span>
+        <Link to={'/'}>
+          Roboton
+          <span role="img" aria-label="robot">
+            &#x1f916;
+          </span>
+        </Link>
       </h1>
     </header>
   );
